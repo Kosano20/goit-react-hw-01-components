@@ -1,0 +1,39 @@
+.Statistics {
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.Title {
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.List {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.Item {
+  flex-basis: calc(100% / 5);
+  padding: 10px;
+}
+
+.Item:nth-child(1) {
+  background-color: aqua;
+}
+.Item:nth-child(2) {
+  background-color: coral;
+}
+.Item:nth-child(3) {
+  background-color: teal;
+}
+.Item:nth-child(4) {
+  background-color: tomato;
+}
+.Item:nth-child(5) {
+  background-color: blueviolet;
+}

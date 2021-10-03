@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(205, 221, 241);
+  font-family: sans-serif;
+}
+/* ul {
+  list-style: none;
+  margin: 0;
+} */
+
+.Profile {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.Description {
+  padding: 20px 40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.Name {
+  font-weight: 700;
+}
+
+.Location {
+  color: rgba(126, 123, 123, 0.8);
+}
+.Tag {
+  color: rgba(126, 123, 123, 0.8);
+}
+
+.Stats {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.Item {
+  flex-basis: calc(100% / 3);
+  padding: 20px;
+  text-align: center;
+}
+
+.Item:not(:last-child) {
+  border-right: 1px solid grey;
+}
+
+li > span {
+  display: block;
+}
+
+.Label {
+  color: rgba(126, 123, 123, 0.8);
+  margin-bottom: 8px;
+}
+
+.Quantity {
+  font-weight: 700;
+}
